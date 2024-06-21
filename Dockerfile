@@ -5,6 +5,8 @@ ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true \
 
 WORKDIR /app
 
+USER root
+
 COPY package*json tsconfig.json src ./
 
 RUN npm ci && \
