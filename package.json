@@ -2,7 +2,8 @@
   "name": "ogcool-server",
   "scripts": {
     "dev": "tsx watch src/index.ts",
-    "build": "tsc"
+    "build": "tsc",
+    "start": "tsx dist/index.js"
   },
   "type": "module",
   "dependencies": {
